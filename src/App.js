@@ -6,7 +6,7 @@ import "./index.css";
 
 // Import your user_page component here
 import UserTemplate from "./user_pages/juan_perez_EXAMPLE/UserTemplate";
-import ShawnComponent from "./user_pages/shawn_huang_fernandes/components/ShawnHPage";
+import ShawnComponent from "./user_pages/shawn_huang_fernandes/components/ShawnComponent";
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
           <Route path="/Shawn_H">
             <ShawnComponent />
           </Route>
+
         </Switch>
       </Router>
     </div>
